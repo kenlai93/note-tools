@@ -1,0 +1,13 @@
+{
+    "configurations": [
+        {
+            "name": "Launch Program",
+            "args": ["${file}"],
+            "runtimeArgs": [],
+            "request": "launch",
+            "outputCapture": "std",
+            "skipFiles": ["<node_internals>/**"],
+            "type": "node"
+        }
+    ]
+}
